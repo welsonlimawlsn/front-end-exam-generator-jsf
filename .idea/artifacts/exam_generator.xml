@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="exam-generator">
+    <output-path>$PROJECT_DIR$/out/artifacts/exam_generator</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="exam-generator-front-jsf/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="exam-generator-front-jsf" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.glassfish:javax.faces:2.3.3" />
+          <element id="library" level="project" name="Maven: javax.faces:javax.faces-api:2.3" />
+          <element id="library" level="project" name="Maven: org.jboss.weld.servlet:weld-servlet:2.4.6.Final" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
