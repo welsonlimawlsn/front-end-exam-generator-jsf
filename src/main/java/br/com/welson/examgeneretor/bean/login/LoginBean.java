@@ -2,15 +2,13 @@ package br.com.welson.examgeneretor.bean.login;
 
 import br.com.welson.examgeneretor.custom.CustomURLEncoder;
 import br.com.welson.examgeneretor.persistence.dao.LoginDAO;
-import br.com.welson.examgeneretor.persistence.model.Token;
+import br.com.welson.examgeneretor.persistence.model.support.Token;
 
 import javax.faces.context.ExternalContext;
 import javax.faces.view.ViewScoped;
 import javax.inject.Inject;
 import javax.inject.Named;
 import java.io.Serializable;
-import java.io.UnsupportedEncodingException;
-import java.net.URLEncoder;
 
 @Named
 @ViewScoped

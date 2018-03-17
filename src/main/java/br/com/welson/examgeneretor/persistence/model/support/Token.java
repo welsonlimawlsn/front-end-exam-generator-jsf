@@ -1,4 +1,4 @@
-package br.com.welson.examgeneretor.persistence.model;
+package br.com.welson.examgeneretor.persistence.model.support;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
