@@ -1,4 +1,8 @@
+import br.com.welson.examgeneretor.persistence.dao.LoginDAO;
+import br.com.welson.examgeneretor.persistence.model.Token;
+
 import javax.faces.view.ViewScoped;
+import javax.inject.Inject;
 import javax.inject.Named;
 import java.io.Serializable;
 
@@ -6,6 +10,17 @@ import java.io.Serializable;
 @ViewScoped
 public class IndexBean implements Serializable {
     private String messagem = "Woooorking";
+    private final LoginDAO loginDAO;
+
+    @Inject
+    public IndexBean(LoginDAO loginDAO) {
+        this.loginDAO = loginDAO;
+    }
+
+    public void login() {
+        Token token = loginDAO.loginReturningToken("welson", "welson");
+        System.out.println(token);
+    }
 
     public String getMessagem() {
         return messagem;
