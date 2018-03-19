@@ -12,6 +12,15 @@ public class ErrorDetail {
     private String error;
     private String message;
     private String path;
+    private String exception;
+
+    public String getException() {
+        return exception;
+    }
+
+    public void setException(String exception) {
+        this.exception = exception;
+    }
 
     public LocalDateTime getTimestamp() {
         return timestamp;

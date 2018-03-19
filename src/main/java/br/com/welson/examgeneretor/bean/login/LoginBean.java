@@ -1,7 +1,9 @@
 package br.com.welson.examgeneretor.bean.login;
 
-import br.com.welson.examgeneretor.custom.CustomURLEncoder;
+import br.com.welson.examgeneretor.custom.CustomURLEncoderDecoder;
 import br.com.welson.examgeneretor.persistence.dao.LoginDAO;
+import br.com.welson.examgeneretor.persistence.dao.ProfessorDAO;
+import br.com.welson.examgeneretor.persistence.model.Professor;
 import br.com.welson.examgeneretor.persistence.model.support.Token;
 
 import javax.faces.context.ExternalContext;
@@ -17,11 +19,13 @@ public class LoginBean implements Serializable {
     private String password;
     private final LoginDAO loginDAO;
     private final ExternalContext externalContext;
+    private final ProfessorDAO professorDAO;
 
     @Inject
-    public LoginBean(LoginDAO loginDAO, ExternalContext externalContext) {
+    public LoginBean(LoginDAO loginDAO, ExternalContext externalContext, ProfessorDAO professorDAO) {
         this.loginDAO = loginDAO;
         this.externalContext = externalContext;
+        this.professorDAO = professorDAO;
     }
 
     public String login() {
@@ -36,8 +40,12 @@ public class LoginBean implements Serializable {
         return "login.xhtml?faces-redirect=true";
     }
 
+    public void checkProfessor() {
+        Professor professor = professorDAO.getProfessorById(1);
+    }
+
     private void addTokenAndExpirationTimeToCookies(String token, String expirationTime) {
-        externalContext.addResponseCookie("token", CustomURLEncoder.encodeUTF8(token), null);
+        externalContext.addResponseCookie("token", CustomURLEncoderDecoder.encodeUTF8(token), null);
         externalContext.addResponseCookie("expirationTime", expirationTime, null);
     }
 
