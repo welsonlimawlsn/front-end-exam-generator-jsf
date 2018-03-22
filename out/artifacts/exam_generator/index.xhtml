@@ -4,6 +4,9 @@
                 template="WEB-INF/templates/template.xhtml"
 >
     <ui:define name="content">
+        <h:panelGrid columns="1">
+            <h:link value="Courses" outcome="course/list"/>
+        </h:panelGrid>
         <h:form>
             <h:commandButton action="#{loginBean.logout}" value="Logout"/>
             <h:commandButton action="#{loginBean.checkProfessor}" value="Call professor"/>

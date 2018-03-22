@@ -2,6 +2,7 @@ package br.com.welson.examgeneretor.persistence.dao;
 
 import br.com.welson.examgeneretor.annotation.ExceptionHandler;
 import br.com.welson.examgeneretor.persistence.model.Professor;
+import br.com.welson.examgeneretor.util.ApiUtil;
 import br.com.welson.examgeneretor.util.JsonUtil;
 import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpMethod;
@@ -15,7 +16,7 @@ import java.io.Serializable;
  * @author Welson Teles on 3/19/2018
  */
 public class ProfessorDAO implements Serializable {
-    private final String BASE_URL = "http://localhost:8085/v1/professor";
+    private final String BASE_URL = ApiUtil.BASE_URL + "/professor";
     private final JsonUtil jsonUtil;
 
     @Inject

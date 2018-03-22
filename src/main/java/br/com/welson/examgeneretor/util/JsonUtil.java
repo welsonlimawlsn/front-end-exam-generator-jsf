@@ -1,5 +1,7 @@
 package br.com.welson.examgeneretor.util;
 
+import org.jboss.weld.context.http.Http;
+import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.MediaType;
 
@@ -30,5 +32,13 @@ public class JsonUtil {
         Cookie token = (Cookie) cookieMap.get("token");
         headers.add("Authorization", decodeUTF8(token.getValue()));
         return headers;
+    }
+
+    public HttpEntity<?> tokenizedHttpEntityHeader() {
+        return new HttpEntity<>(createTokenizedHeader());
+    }
+
+    public <E> HttpEntity<E> tokenizedHttpEntityHeader(E entity) {
+        return new HttpEntity<>(entity, createTokenizedHeader());
     }
 }

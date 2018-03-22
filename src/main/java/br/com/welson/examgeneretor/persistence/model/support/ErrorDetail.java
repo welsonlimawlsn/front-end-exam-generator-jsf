@@ -1,9 +1,12 @@
 package br.com.welson.examgeneretor.persistence.model.support;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 import java.time.LocalDateTime;
+import java.util.List;
 
+@JsonIgnoreProperties(ignoreUnknown = true)
 public class ErrorDetail {
 
     @JsonFormat(pattern = "yyyy-MM-dd'T'HH:mm:ss.SSSZZZ")
@@ -13,6 +16,7 @@ public class ErrorDetail {
     private String message;
     private String path;
     private String exception;
+    private List<Errors> errors;
 
     public String getException() {
         return exception;
@@ -60,5 +64,13 @@ public class ErrorDetail {
 
     public void setPath(String path) {
         this.path = path;
+    }
+
+    public List<Errors> getErrors() {
+        return errors;
+    }
+
+    public void setErrors(List<Errors> errors) {
+        this.errors = errors;
     }
 }

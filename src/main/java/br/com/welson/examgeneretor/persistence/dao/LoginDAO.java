@@ -10,11 +10,11 @@ import org.springframework.http.ResponseEntity;
 import javax.inject.Inject;
 import java.io.Serializable;
 
+import static br.com.welson.examgeneretor.util.ApiUtil.LOGIN_URL;
 import static org.springframework.http.HttpMethod.POST;
 
 public class LoginDAO implements Serializable {
 
-    private final String BASE_URL = "http://localhost:8085/login";
     private final CustomRestTemplate restTemplate;
     private final JsonUtil jsonUtil;
 
@@ -26,7 +26,7 @@ public class LoginDAO implements Serializable {
 
     @ExceptionHandler
     public Token loginReturningToken(String username, String password) {
-        ResponseEntity<Token> tokenExchange = restTemplate.exchange(BASE_URL, POST, new HttpEntity<>(createJsonForLogin(username, password), jsonUtil.createJsonHeader()), Token.class);
+        ResponseEntity<Token> tokenExchange = restTemplate.exchange(LOGIN_URL, POST, new HttpEntity<>(createJsonForLogin(username, password), jsonUtil.createJsonHeader()), Token.class);
         return tokenExchange.getBody();
     }
 

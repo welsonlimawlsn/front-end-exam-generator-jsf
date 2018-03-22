@@ -12,7 +12,9 @@
 <h:body>
     <div id="header"></div>
     <div id="content">
-        <p:messages id="messages" showDetail="false" autoUpdate="true" closable="true"/>
+        <p:messages id="messages" showDetail="false" closable="true">
+            <p:autoUpdate/>
+        </p:messages>
         <ui:insert name="content">
 
         </ui:insert>
