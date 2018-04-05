@@ -25,6 +25,7 @@ public class CourseEditBean implements Serializable {
         this.courseDAO = courseDAO;
     }
 
+    @ExceptionHandler
     public void init() {
         course = courseDAO.findById(id);
     }
@@ -36,6 +37,7 @@ public class CourseEditBean implements Serializable {
         return "list?faces-redirect=true";
     }
 
+    @ExceptionHandler
     public String delete() {
         courseDAO.delete(course.getId());
         Messages.create("The course {0} was successfully deleted", course.getName()).flash().add();

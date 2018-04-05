@@ -1,5 +1,6 @@
 package br.com.welson.examgeneretor.bean.question;
 
+import br.com.welson.examgeneretor.annotation.ExceptionHandler;
 import br.com.welson.examgeneretor.persistence.dao.CourseDAO;
 import br.com.welson.examgeneretor.persistence.dao.QuestionDAO;
 import br.com.welson.examgeneretor.persistence.model.Course;
@@ -32,11 +33,13 @@ public class QuestionListBean implements Serializable {
         this.courseDAO = courseDAO;
     }
 
+    @ExceptionHandler
     public void init() {
         course = courseDAO.findById(courseId);
         search();
     }
 
+    @ExceptionHandler
     public void search() {
         questionList = questionDAO.list(courseId, title);
     }

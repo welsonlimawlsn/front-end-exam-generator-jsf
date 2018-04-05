@@ -24,7 +24,7 @@ public class LoginDAO implements Serializable {
         this.jsonUtil = jsonUtil;
     }
 
-    @ExceptionHandler
+
     public Token loginReturningToken(String username, String password) {
         ResponseEntity<Token> tokenExchange = restTemplate.exchange(LOGIN_URL, POST, new HttpEntity<>(createJsonForLogin(username, password), jsonUtil.createJsonHeader()), Token.class);
         return tokenExchange.getBody();

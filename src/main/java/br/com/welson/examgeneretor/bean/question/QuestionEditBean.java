@@ -39,8 +39,7 @@ public class QuestionEditBean implements Serializable {
         return "list?faces-redirect=true&courseId=" + question.getCourse().getId();
     }
 
-
-
+    @ExceptionHandler
     public String delete() {
         questionDAO.delete(question.getId());
         Messages.create("The question \"{0}\" was successfully deleted", question.getTitle()).flash().add();

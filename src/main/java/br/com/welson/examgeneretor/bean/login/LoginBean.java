@@ -1,5 +1,6 @@
 package br.com.welson.examgeneretor.bean.login;
 
+import br.com.welson.examgeneretor.annotation.ExceptionHandler;
 import br.com.welson.examgeneretor.custom.CustomURLEncoderDecoder;
 import br.com.welson.examgeneretor.persistence.dao.LoginDAO;
 import br.com.welson.examgeneretor.persistence.dao.ProfessorDAO;
@@ -28,9 +29,10 @@ public class LoginBean implements Serializable {
         this.professorDAO = professorDAO;
     }
 
+    @ExceptionHandler
     public String login() {
         Token token = loginDAO.loginReturningToken(username, password);
-        if(token == null) return null;
+        if (token == null) return null;
         addTokenAndExpirationTimeToCookies(token.getToken(), token.getExpirationTime().toString());
         return "index.xhtml?faces-redirect=true";
     }
@@ -40,6 +42,7 @@ public class LoginBean implements Serializable {
         return "login.xhtml?faces-redirect=true";
     }
 
+    @ExceptionHandler
     public void checkProfessor() {
         Professor professor = professorDAO.getProfessorById(1);
     }
@@ -49,7 +52,7 @@ public class LoginBean implements Serializable {
         externalContext.addResponseCookie("expirationTime", expirationTime, null);
     }
 
-    private void removeTokenAndExpirationTimeFromCookies(){
+    private void removeTokenAndExpirationTimeFromCookies() {
         addTokenAndExpirationTimeToCookies(null, null);
     }
 
