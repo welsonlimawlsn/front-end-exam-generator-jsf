@@ -20,8 +20,14 @@
                 <h:outputLabel value="Is it correct?"/>
                 <p:selectBooleanButton onLabel="Yes" offLabel="No" onIcon="ui-icon-check" offIcon="ui-icon-close"
                                        value="#{choiceBean.choice.correctAnswer}"/>
-                <p:commandButton actionListener="#{choiceBean.save}" ajax="true"
+                <h:panelGrid columns="2">
+                    <p:link outcome="/question/list">
+                        <f:param name="courseId" value="#{choiceBean.question.course.id}"/>
+                        <p:button value="Back"/>
+                    </p:link>
+                    <p:commandButton actionListener="#{choiceBean.save}" ajax="true"
                                  update="form" value="Create choice"/>
+                </h:panelGrid>
             </h:panelGrid>
             <p:remoteCommand name="onRowEdit" update="dataTable"/>
             <p:dataTable value="#{choiceBean.choiceList}" var="choice" id="dataTable" editable="true">

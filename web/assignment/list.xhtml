@@ -9,38 +9,33 @@
 >
     <ui:define name="content">
         <f:metadata>
-            <f:viewParam name="courseId" value="#{questionListBean.courseId}" required="true" requiredMessage="Use the links to get here"/>
-            <f:viewAction action="#{questionListBean.init}"/>
+            <f:viewParam name="courseId" value="#{assignmentListBean.courseId}" required="true" requiredMessage="Use the links to get here"/>
+            <f:viewAction action="#{assignmentListBean.init}"/>
         </f:metadata>
         <o:form includeRequestParams="true">
-            <h1>Course: <h:outputText value="#{questionListBean.course.name}"/> </h1>
+            <h1>Course: <h:outputText value="#{assignmentListBean.course.name}"/> </h1>
             <h:panelGrid columns="2">
                 <p:link outcome="create">
-                    <f:param name="courseId" value="#{questionListBean.courseId}"/>
-                    <p:button value="CREATE QUESTION"/>
+                    <f:param name="courseId" value="#{assignmentListBean.courseId}"/>
+                    <p:button value="CREATE ASSIGNMENT"/>
                 </p:link>
                 <p:link outcome="/course/list">
                     <p:button value="COURSE LIST"/>
                 </p:link>
             </h:panelGrid>
             <h:panelGrid columns="2">
-                <p:inputText value="#{questionListBean.title}"/>
-                <p:commandButton actionListener="#{questionListBean.search}" ajax="true"
+                <p:inputText value="#{assignmentListBean.title}"/>
+                <p:commandButton actionListener="#{assignmentListBean.search}" ajax="true"
                                  update="dataTable" icon="ui-icon-search"/>
             </h:panelGrid>
         </o:form>
-        <p:dataTable value="#{questionListBean.questionList}" var="question" id="dataTable">
+        <p:dataTable value="#{assignmentListBean.assignmentList}" var="assignment" id="dataTable">
             <p:column headerText="Course name">
-                <h:outputText value="#{question.title}"/>
+                <h:outputText value="#{assignment.title}"/>
             </p:column>
             <p:column headerText="Edit">
                 <h:link value="Edit" outcome="edit">
-                    <f:param name="questionId" value="#{question.id}"/>
-                </h:link>
-            </p:column>
-            <p:column headerText="Choices">
-                <h:link value="Choices" outcome="/choice/choices">
-                    <f:param name="questionId" value="#{question.id}"/>
+                    <f:param name="assignmentId" value="#{assignment.id}"/>
                 </h:link>
             </p:column>
         </p:dataTable>

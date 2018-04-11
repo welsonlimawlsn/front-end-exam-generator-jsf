@@ -7,43 +7,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="290d41a4-184d-4c53-8ccb-b1fa42cdd82a" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/br/com/welson/examgeneretor/bean/choice/ChoiceBean.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/br/com/welson/examgeneretor/persistence/dao/ChoiceDAO.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/br/com/welson/examgeneretor/persistence/model/Choice.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/choice/choices.xhtml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/br/com/welson/examgeneretor/bean/assignment/AssignmentCreateBean.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/br/com/welson/examgeneretor/bean/assignment/AssignmentEditBean.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/br/com/welson/examgeneretor/bean/assignment/AssignmentListBean.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/br/com/welson/examgeneretor/persistence/dao/AssignmentDAO.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/br/com/welson/examgeneretor/persistence/model/Assignment.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/assignment/create.xhtml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/assignment/edit.xhtml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/assignment/list.xhtml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/resources/images/loading.gif" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/exam_generator/WEB-INF/classes/br/com/welson/examgeneretor/bean/course/CourseEditBean.class" afterPath="$PROJECT_DIR$/out/artifacts/exam_generator/WEB-INF/classes/br/com/welson/examgeneretor/bean/course/CourseEditBean.class" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/exam_generator/WEB-INF/classes/br/com/welson/examgeneretor/bean/course/CourseListBean.class" afterPath="$PROJECT_DIR$/out/artifacts/exam_generator/WEB-INF/classes/br/com/welson/examgeneretor/bean/course/CourseListBean.class" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/exam_generator/WEB-INF/classes/br/com/welson/examgeneretor/bean/login/LoginBean.class" afterPath="$PROJECT_DIR$/out/artifacts/exam_generator/WEB-INF/classes/br/com/welson/examgeneretor/bean/login/LoginBean.class" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/exam_generator/WEB-INF/classes/br/com/welson/examgeneretor/bean/question/QuestionEditBean.class" afterPath="$PROJECT_DIR$/out/artifacts/exam_generator/WEB-INF/classes/br/com/welson/examgeneretor/bean/question/QuestionEditBean.class" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/exam_generator/WEB-INF/classes/br/com/welson/examgeneretor/bean/question/QuestionListBean.class" afterPath="$PROJECT_DIR$/out/artifacts/exam_generator/WEB-INF/classes/br/com/welson/examgeneretor/bean/question/QuestionListBean.class" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/exam_generator/WEB-INF/classes/br/com/welson/examgeneretor/persistence/dao/CourseDAO.class" afterPath="$PROJECT_DIR$/out/artifacts/exam_generator/WEB-INF/classes/br/com/welson/examgeneretor/persistence/dao/CourseDAO.class" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/exam_generator/WEB-INF/classes/br/com/welson/examgeneretor/persistence/dao/LoginDAO.class" afterPath="$PROJECT_DIR$/out/artifacts/exam_generator/WEB-INF/classes/br/com/welson/examgeneretor/persistence/dao/LoginDAO.class" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/exam_generator/WEB-INF/classes/br/com/welson/examgeneretor/persistence/dao/QuestionDAO.class" afterPath="$PROJECT_DIR$/out/artifacts/exam_generator/WEB-INF/classes/br/com/welson/examgeneretor/persistence/dao/QuestionDAO.class" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/exam_generator/WEB-INF/classes/br/com/welson/examgeneretor/persistence/model/AbstractEntity.class" afterPath="$PROJECT_DIR$/out/artifacts/exam_generator/WEB-INF/classes/br/com/welson/examgeneretor/persistence/model/AbstractEntity.class" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/exam_generator/WEB-INF/templates/template.xhtml" afterPath="$PROJECT_DIR$/out/artifacts/exam_generator/WEB-INF/templates/template.xhtml" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/exam_generator/choice/choices.xhtml" afterPath="$PROJECT_DIR$/out/artifacts/exam_generator/choice/choices.xhtml" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/exam_generator/course/list.xhtml" afterPath="$PROJECT_DIR$/out/artifacts/exam_generator/course/list.xhtml" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/exam_generator/question/list.xhtml" afterPath="$PROJECT_DIR$/out/artifacts/exam_generator/question/list.xhtml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/welson/examgeneretor/bean/course/CourseEditBean.java" afterPath="$PROJECT_DIR$/src/main/java/br/com/welson/examgeneretor/bean/course/CourseEditBean.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/welson/examgeneretor/bean/course/CourseListBean.java" afterPath="$PROJECT_DIR$/src/main/java/br/com/welson/examgeneretor/bean/course/CourseListBean.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/welson/examgeneretor/bean/login/LoginBean.java" afterPath="$PROJECT_DIR$/src/main/java/br/com/welson/examgeneretor/bean/login/LoginBean.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/welson/examgeneretor/bean/professor/ProfessorBean.java" afterPath="$PROJECT_DIR$/src/main/java/br/com/welson/examgeneretor/bean/professor/ProfessorBean.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/welson/examgeneretor/bean/question/QuestionEditBean.java" afterPath="$PROJECT_DIR$/src/main/java/br/com/welson/examgeneretor/bean/question/QuestionEditBean.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/welson/examgeneretor/bean/question/QuestionListBean.java" afterPath="$PROJECT_DIR$/src/main/java/br/com/welson/examgeneretor/bean/question/QuestionListBean.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/welson/examgeneretor/custom/CustomTypeReference.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/welson/examgeneretor/persistence/dao/CourseDAO.java" afterPath="$PROJECT_DIR$/src/main/java/br/com/welson/examgeneretor/persistence/dao/CourseDAO.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/welson/examgeneretor/persistence/dao/LoginDAO.java" afterPath="$PROJECT_DIR$/src/main/java/br/com/welson/examgeneretor/persistence/dao/LoginDAO.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/welson/examgeneretor/persistence/dao/QuestionDAO.java" afterPath="$PROJECT_DIR$/src/main/java/br/com/welson/examgeneretor/persistence/dao/QuestionDAO.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/welson/examgeneretor/persistence/model/AbstractEntity.java" afterPath="$PROJECT_DIR$/src/main/java/br/com/welson/examgeneretor/persistence/model/AbstractEntity.java" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/welson/examgeneretor/bean/course/CourseEditBean.class" afterPath="$PROJECT_DIR$/target/classes/br/com/welson/examgeneretor/bean/course/CourseEditBean.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/welson/examgeneretor/bean/course/CourseListBean.class" afterPath="$PROJECT_DIR$/target/classes/br/com/welson/examgeneretor/bean/course/CourseListBean.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/welson/examgeneretor/bean/login/LoginBean.class" afterPath="$PROJECT_DIR$/target/classes/br/com/welson/examgeneretor/bean/login/LoginBean.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/welson/examgeneretor/bean/question/QuestionEditBean.class" afterPath="$PROJECT_DIR$/target/classes/br/com/welson/examgeneretor/bean/question/QuestionEditBean.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/welson/examgeneretor/bean/question/QuestionListBean.class" afterPath="$PROJECT_DIR$/target/classes/br/com/welson/examgeneretor/bean/question/QuestionListBean.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/welson/examgeneretor/custom/CustomTypeReference$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/welson/examgeneretor/custom/CustomTypeReference.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/welson/examgeneretor/persistence/dao/CourseDAO.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/welson/examgeneretor/persistence/dao/LoginDAO.class" afterPath="$PROJECT_DIR$/target/classes/br/com/welson/examgeneretor/persistence/dao/LoginDAO.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/welson/examgeneretor/persistence/dao/QuestionDAO.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/welson/examgeneretor/persistence/model/AbstractEntity.class" afterPath="$PROJECT_DIR$/target/classes/br/com/welson/examgeneretor/persistence/model/AbstractEntity.class" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/templates/template.xhtml" afterPath="$PROJECT_DIR$/web/WEB-INF/templates/template.xhtml" />
+      <change beforePath="$PROJECT_DIR$/web/choice/choices.xhtml" afterPath="$PROJECT_DIR$/web/choice/choices.xhtml" />
+      <change beforePath="$PROJECT_DIR$/web/course/list.xhtml" afterPath="$PROJECT_DIR$/web/course/list.xhtml" />
       <change beforePath="$PROJECT_DIR$/web/question/list.xhtml" afterPath="$PROJECT_DIR$/web/question/list.xhtml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -56,100 +36,52 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ChoiceDAO.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/welson/examgeneretor/persistence/dao/ChoiceDAO.java">
+    <leaf>
+      <file leaf-file-name="list.xhtml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/course/list.xhtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="710">
-              <caret line="47" column="141" lean-forward="false" selection-start-line="47" selection-start-column="141" selection-end-line="47" selection-end-column="141" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1624#1625#0" expanded="true" />
-                <element signature="e#1686#1687#0" expanded="true" />
-                <element signature="e#1729#1730#0" expanded="true" />
-                <element signature="e#1790#1791#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CourseDAO.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/welson/examgeneretor/persistence/dao/CourseDAO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="26" column="6" lean-forward="true" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
+            <state relative-caret-position="304">
+              <caret line="32" column="23" lean-forward="true" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ChoiceBean.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/welson/examgeneretor/bean/choice/ChoiceBean.java">
+      <file leaf-file-name="create.xhtml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/assignment/create.xhtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="439">
-              <caret line="70" column="34" lean-forward="false" selection-start-line="70" selection-start-column="34" selection-end-line="70" selection-end-column="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1274#1275#0" expanded="true" />
-                <element signature="e#1329#1330#0" expanded="true" />
-                <element signature="e#1629#1630#0" expanded="true" />
-                <element signature="e#1713#1714#0" expanded="true" />
-                <element signature="e#2273#2274#0" expanded="true" />
-                <element signature="e#2302#2303#0" expanded="true" />
-                <element signature="e#2346#2347#0" expanded="true" />
-                <element signature="e#2382#2383#0" expanded="true" />
-                <element signature="e#2419#2420#0" expanded="true" />
-                <element signature="e#2450#2451#0" expanded="true" />
-                <element signature="e#2500#2501#0" expanded="true" />
-                <element signature="e#2540#2541#0" expanded="true" />
-                <element signature="e#2583#2584#0" expanded="true" />
-                <element signature="e#2616#2617#0" expanded="true" />
-                <element signature="e#2674#2675#0" expanded="true" />
-                <element signature="e#2718#2719#0" expanded="true" />
-                <element signature="e#2753#2754#0" expanded="true" />
-                <element signature="e#2786#2787#0" expanded="true" />
-                <element signature="e#2836#2837#0" expanded="true" />
-                <element signature="e#2880#2881#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="choices.xhtml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/choice/choices.xhtml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="580">
-              <caret line="49" column="105" lean-forward="false" selection-start-line="49" selection-start-column="105" selection-end-line="49" selection-end-column="105" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="edit.xhtml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/question/edit.xhtml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="23" column="25" lean-forward="true" selection-start-line="23" selection-start-column="25" selection-end-line="26" selection-end-column="34" />
+            <state relative-caret-position="216">
+              <caret line="12" column="21" lean-forward="true" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="list.xhtml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/course/list.xhtml">
+        <entry file="file://$PROJECT_DIR$/web/assignment/list.xhtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="28" column="45" lean-forward="true" selection-start-line="28" selection-start-column="45" selection-end-line="28" selection-end-column="45" />
+            <state relative-caret-position="340">
+              <caret line="39" column="23" lean-forward="false" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="edit.xhtml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/course/edit.xhtml">
+        <entry file="file://$PROJECT_DIR$/web/assignment/edit.xhtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="25" column="26" lean-forward="true" selection-start-line="25" selection-start-column="26" selection-end-line="29" selection-end-column="30" />
+            <state relative-caret-position="192">
+              <caret line="21" column="83" lean-forward="false" selection-start-line="21" selection-start-column="83" selection-end-line="21" selection-end-column="83" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -173,12 +105,14 @@
       <find>name</find>
       <find>courseListBean</find>
       <find>course</find>
+      <find>question</find>
     </findStrings>
     <replaceStrings>
       <replace>title</replace>
       <replace>questionListBean</replace>
       <replace>question</replace>
       <replace>questionDAO</replace>
+      <replace>assignment</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -192,15 +126,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/br/com/welson/examgeneretor/config/JSFConfiguration.java" />
-        <option value="$PROJECT_DIR$/src/main/java/br/com/welson/examgeneretor/filter/LoginFilter.java" />
-        <option value="$PROJECT_DIR$/web/login.xhtml" />
-        <option value="$PROJECT_DIR$/src/main/java/br/com/welson/examgeneretor/persistence/model/support/Token.java" />
-        <option value="$PROJECT_DIR$/src/main/java/br/com/welson/examgeneretor/custom/CustomObjectMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/br/com/welson/examgeneretor/annotation/ExceptionHandler.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/beans.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/br/com/welson/examgeneretor/persistence/model/Professor.java" />
-        <option value="$PROJECT_DIR$/src/main/java/br/com/welson/examgeneretor/bean/login/welson.ts" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/welson/examgeneretor/bean/login/teste.ts" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/welson/examgeneretor/custom/CustomURLEncoder.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/welson/examgeneretor/custom/CustomURLEncoderDecoder.java" />
@@ -220,8 +145,6 @@
         <option value="$PROJECT_DIR$/src/main/java/br/com/welson/examgeneretor/bean/course/CourseCreateBean.java" />
         <option value="$PROJECT_DIR$/web/course/create.xhtml" />
         <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/web/course/list.xhtml" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/templates/template.xhtml" />
         <option value="$PROJECT_DIR$/web/question/create.xhtml" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/welson/examgeneretor/bean/question/QuestionCreateBean.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/welson/examgeneretor/persistence/model/Question.java" />
@@ -237,12 +160,23 @@
         <option value="$PROJECT_DIR$/src/main/java/br/com/welson/examgeneretor/bean/course/CourseEditBean.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/welson/examgeneretor/bean/login/LoginBean.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/welson/examgeneretor/bean/professor/ProfessorBean.java" />
-        <option value="$PROJECT_DIR$/web/question/list.xhtml" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/welson/examgeneretor/persistence/dao/CourseDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/welson/examgeneretor/persistence/dao/QuestionDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/welson/examgeneretor/persistence/dao/ChoiceDAO.java" />
-        <option value="$PROJECT_DIR$/web/choice/choices.xhtml" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/welson/examgeneretor/bean/choice/ChoiceBean.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/templates/template.xhtml" />
+        <option value="$PROJECT_DIR$/web/choice/choices.xhtml" />
+        <option value="$PROJECT_DIR$/web/question/list.xhtml" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/welson/examgeneretor/bean/assignment/QuestionEditBean.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/welson/examgeneretor/persistence/model/Assignment.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/welson/examgeneretor/persistence/dao/AssignmentDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/welson/examgeneretor/bean/assignment/AssignmentListBean.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/welson/examgeneretor/bean/assignment/AssignmentCreateBean.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/welson/examgeneretor/bean/assignment/AssignmentEditBean.java" />
+        <option value="$PROJECT_DIR$/web/course/list.xhtml" />
+        <option value="$PROJECT_DIR$/web/assignment/create.xhtml" />
+        <option value="$PROJECT_DIR$/web/assignment/list.xhtml" />
+        <option value="$PROJECT_DIR$/web/assignment/edit.xhtml" />
       </list>
     </option>
   </component>
@@ -290,8 +224,9 @@
     </navigator>
     <panes>
       <pane id="AndroidView" />
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -313,217 +248,13 @@
             <path>
               <item name="exam-generator-front-jsf" type="b2602c69:ProjectViewProjectNode" />
               <item name="exam-generator-front-jsf" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="exam-generator-front-jsf" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exam-generator-front-jsf" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="br" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="exam-generator-front-jsf" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exam-generator-front-jsf" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="br" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="exam-generator-front-jsf" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exam-generator-front-jsf" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="br" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="welson" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="exam-generator-front-jsf" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exam-generator-front-jsf" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="br" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="welson" type="462c0819:PsiDirectoryNode" />
-              <item name="examgeneretor" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="exam-generator-front-jsf" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exam-generator-front-jsf" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="br" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="welson" type="462c0819:PsiDirectoryNode" />
-              <item name="examgeneretor" type="462c0819:PsiDirectoryNode" />
-              <item name="annotation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="exam-generator-front-jsf" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exam-generator-front-jsf" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="br" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="welson" type="462c0819:PsiDirectoryNode" />
-              <item name="examgeneretor" type="462c0819:PsiDirectoryNode" />
-              <item name="bean" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="exam-generator-front-jsf" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exam-generator-front-jsf" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="br" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="welson" type="462c0819:PsiDirectoryNode" />
-              <item name="examgeneretor" type="462c0819:PsiDirectoryNode" />
-              <item name="bean" type="462c0819:PsiDirectoryNode" />
-              <item name="choice" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="exam-generator-front-jsf" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exam-generator-front-jsf" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="br" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="welson" type="462c0819:PsiDirectoryNode" />
-              <item name="examgeneretor" type="462c0819:PsiDirectoryNode" />
-              <item name="bean" type="462c0819:PsiDirectoryNode" />
-              <item name="course" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="exam-generator-front-jsf" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exam-generator-front-jsf" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="br" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="welson" type="462c0819:PsiDirectoryNode" />
-              <item name="examgeneretor" type="462c0819:PsiDirectoryNode" />
-              <item name="bean" type="462c0819:PsiDirectoryNode" />
-              <item name="login" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="exam-generator-front-jsf" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exam-generator-front-jsf" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="br" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="welson" type="462c0819:PsiDirectoryNode" />
-              <item name="examgeneretor" type="462c0819:PsiDirectoryNode" />
-              <item name="bean" type="462c0819:PsiDirectoryNode" />
-              <item name="professor" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="exam-generator-front-jsf" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exam-generator-front-jsf" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="br" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="welson" type="462c0819:PsiDirectoryNode" />
-              <item name="examgeneretor" type="462c0819:PsiDirectoryNode" />
-              <item name="bean" type="462c0819:PsiDirectoryNode" />
-              <item name="question" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="exam-generator-front-jsf" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exam-generator-front-jsf" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="br" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="welson" type="462c0819:PsiDirectoryNode" />
-              <item name="examgeneretor" type="462c0819:PsiDirectoryNode" />
-              <item name="custom" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="exam-generator-front-jsf" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exam-generator-front-jsf" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="br" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="welson" type="462c0819:PsiDirectoryNode" />
-              <item name="examgeneretor" type="462c0819:PsiDirectoryNode" />
-              <item name="persistence" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="exam-generator-front-jsf" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exam-generator-front-jsf" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="br" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="welson" type="462c0819:PsiDirectoryNode" />
-              <item name="examgeneretor" type="462c0819:PsiDirectoryNode" />
-              <item name="persistence" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="exam-generator-front-jsf" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exam-generator-front-jsf" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="br" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="welson" type="462c0819:PsiDirectoryNode" />
-              <item name="examgeneretor" type="462c0819:PsiDirectoryNode" />
-              <item name="persistence" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="exam-generator-front-jsf" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exam-generator-front-jsf" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="br" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="welson" type="462c0819:PsiDirectoryNode" />
-              <item name="examgeneretor" type="462c0819:PsiDirectoryNode" />
-              <item name="persistence" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-              <item name="support" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="exam-generator-front-jsf" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exam-generator-front-jsf" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="br" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="welson" type="462c0819:PsiDirectoryNode" />
-              <item name="examgeneretor" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="exam-generator-front-jsf" type="b2602c69:ProjectViewProjectNode" />
               <item name="exam-generator-front-jsf" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="assignment" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="exam-generator-front-jsf" type="b2602c69:ProjectViewProjectNode" />
@@ -542,6 +273,19 @@
               <item name="exam-generator-front-jsf" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="question" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="exam-generator-front-jsf" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exam-generator-front-jsf" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="exam-generator-front-jsf" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exam-generator-front-jsf" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="exam-generator-front-jsf" type="b2602c69:ProjectViewProjectNode" />
@@ -560,7 +304,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -572,19 +315,24 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="SearchEverywhereHistoryKey" value="Choi&#9;FILE&#9;file://C:/Users/welso/IdeaProjects/exam-generator-front-jsf/src/main/java/br/com/welson/examgeneretor/persistence/dao/ChoiceDAO.java" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../examgenerator" />
+    <property name="SearchEverywhereHistoryKey" value="tem&#9;FILE&#9;file://C:/Users/welso/IdeaProjects/exam-generator-front-jsf/web/WEB-INF/templates/template.xhtml&#10;Choi&#9;FILE&#9;file://C:/Users/welso/IdeaProjects/exam-generator-front-jsf/src/main/java/br/com/welson/examgeneretor/persistence/dao/ChoiceDAO.java" />
+    <property name="last_opened_file_path" value="C:/glassfish5/docs/javaee-tutorial/examples/web/jsf/hello1" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\welso\IdeaProjects\exam-generator-front-jsf\web\resources\images" />
+      <recent name="C:\Users\welso\IdeaProjects\exam-generator-front-jsf\web\resources" />
       <recent name="C:\Users\welso\IdeaProjects\exam-generator-front-jsf\web" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="br.com.welson.examgeneretor.persistence.dao" />
       <recent name="br.com.welson.examgeneretor.persistence.model" />
       <recent name="br.com.welson.examgeneretor.bean.question" />
       <recent name="br.com.welson.examgeneretor.bean.course" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\welso\IdeaProjects\exam-generator-front-jsf\web" />
+      <recent name="C:\Users\welso\IdeaProjects\exam-generator-front-jsf\src\main\java\br\com\welson\examgeneretor\bean\assignment" />
       <recent name="C:\Users\welso\IdeaProjects\exam-generator-front-jsf\web\question" />
       <recent name="C:\Users\welso\IdeaProjects\exam-generator-front-jsf\web\course" />
       <recent name="C:\Users\welso\IdeaProjects\exam-generator-front-jsf\src\main\java\br\com\welson\examgeneretor\persistence\model" />
@@ -798,14 +546,25 @@
       <workItem from="1522866166228" duration="1193000" />
       <workItem from="1522871796563" duration="158000" />
       <workItem from="1522877748113" duration="6701000" />
+      <workItem from="1522926347053" duration="2546000" />
+      <workItem from="1522957045254" duration="1014000" />
+      <workItem from="1523026729103" duration="638000" />
+      <workItem from="1523045527917" duration="2404000" />
+      <workItem from="1523099731629" duration="1009000" />
+      <workItem from="1523121189096" duration="1192000" />
+      <workItem from="1523221120877" duration="1392000" />
+      <workItem from="1523302334951" duration="1120000" />
+      <workItem from="1523314791404" duration="69000" />
+      <workItem from="1523483430848" duration="3092000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79933000" />
+    <option name="totallyTimeSpent" value="94409000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="974" height="1047" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -819,7 +578,7 @@
       <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39721626" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3961456" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32976446" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -829,10 +588,9 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32873806" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946146" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40083507" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32869378" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30480167" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979852" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -841,6 +599,7 @@
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979852" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -892,69 +651,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/welson/examgeneretor/persistence/model/Course.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="31" lean-forward="false" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/welson/examgeneretor/util/TokenUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="30" column="71" lean-forward="false" selection-start-line="30" selection-start-column="71" selection-end-line="30" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/welson/examgeneretor/util/ApiUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="31" lean-forward="false" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/IndexBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/welson/examgeneretor/filter/LoginFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="22" column="10" lean-forward="true" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.0.4.RELEASE/spring-core-5.0.4.RELEASE-sources.jar!/org/springframework/util/StringUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="120" column="0" lean-forward="false" selection-start-line="120" selection-start-column="0" selection-end-line="120" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.0.4.RELEASE/spring-core-5.0.4.RELEASE-sources.jar!/org/springframework/util/CollectionUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.4.RELEASE/spring-web-5.0.4.RELEASE-sources.jar!/org/springframework/web/util/UriComponents.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="80" column="0" lean-forward="false" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.4.RELEASE/spring-web-5.0.4.RELEASE-sources.jar!/org/springframework/web/util/HierarchicalUriComponents.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="362">
@@ -1050,13 +746,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
           <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/templates/template.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="9" column="24" lean-forward="false" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -1176,47 +865,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
           <caret line="24" column="26" lean-forward="true" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/welson/examgeneretor/custom/CustomTypeReference.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/question/list.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="501">
-          <caret line="44" column="17" lean-forward="true" selection-start-line="44" selection-start-column="17" selection-end-line="44" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/course/list.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="28" column="45" lean-forward="true" selection-start-line="28" selection-start-column="45" selection-end-line="28" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/welson/examgeneretor/custom/CustomTypeReference.java" />
     <entry file="file://$PROJECT_DIR$/web/course/edit.xhtml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
-          <caret line="25" column="26" lean-forward="true" selection-start-line="25" selection-start-column="26" selection-end-line="29" selection-end-column="30" />
-          <folding />
+          <caret line="25" column="26" lean-forward="false" selection-start-line="25" selection-start-column="26" selection-end-line="29" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/question/edit.xhtml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
-          <caret line="23" column="25" lean-forward="true" selection-start-line="23" selection-start-column="25" selection-end-line="26" selection-end-column="34" />
-          <folding />
+          <caret line="23" column="25" lean-forward="false" selection-start-line="23" selection-start-column="25" selection-end-line="26" selection-end-column="34" />
         </state>
       </provider>
     </entry>
@@ -1224,67 +887,160 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
           <caret line="28" column="41" lean-forward="false" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/br/com/welson/examgeneretor/persistence/dao/ChoiceDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="710">
+        <state relative-caret-position="594">
           <caret line="47" column="141" lean-forward="false" selection-start-line="47" selection-start-column="141" selection-end-line="47" selection-end-column="141" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1624#1625#0" expanded="true" />
-            <element signature="e#1686#1687#0" expanded="true" />
-            <element signature="e#1729#1730#0" expanded="true" />
-            <element signature="e#1790#1791#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/br/com/welson/examgeneretor/persistence/dao/CourseDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="26" column="6" lean-forward="true" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/choice/choices.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="580">
-          <caret line="49" column="105" lean-forward="false" selection-start-line="49" selection-start-column="105" selection-end-line="49" selection-end-column="105" />
-          <folding />
+        <state relative-caret-position="270">
+          <caret line="26" column="6" lean-forward="false" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/br/com/welson/examgeneretor/bean/choice/ChoiceBean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="439">
-          <caret line="70" column="34" lean-forward="false" selection-start-line="70" selection-start-column="34" selection-end-line="70" selection-end-column="34" />
+        <state relative-caret-position="1422">
+          <caret line="82" column="35" lean-forward="false" selection-start-line="82" selection-start-column="35" selection-end-line="82" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/templates/template.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="21" lean-forward="false" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/choice/choices.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="24" column="87" lean-forward="false" selection-start-line="24" selection-start-column="87" selection-end-line="24" selection-end-column="87" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/question/list.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="22" column="48" lean-forward="false" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/welson/examgeneretor/persistence/model/Assignment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/welson/examgeneretor/persistence/dao/AssignmentDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="53" column="117" lean-forward="false" selection-start-line="53" selection-start-column="117" selection-end-line="53" selection-end-column="117" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1274#1275#0" expanded="true" />
-            <element signature="e#1329#1330#0" expanded="true" />
-            <element signature="e#1629#1630#0" expanded="true" />
-            <element signature="e#1713#1714#0" expanded="true" />
-            <element signature="e#2273#2274#0" expanded="true" />
-            <element signature="e#2302#2303#0" expanded="true" />
-            <element signature="e#2346#2347#0" expanded="true" />
-            <element signature="e#2382#2383#0" expanded="true" />
-            <element signature="e#2419#2420#0" expanded="true" />
-            <element signature="e#2450#2451#0" expanded="true" />
-            <element signature="e#2500#2501#0" expanded="true" />
-            <element signature="e#2540#2541#0" expanded="true" />
-            <element signature="e#2583#2584#0" expanded="true" />
-            <element signature="e#2616#2617#0" expanded="true" />
-            <element signature="e#2674#2675#0" expanded="true" />
-            <element signature="e#2718#2719#0" expanded="true" />
-            <element signature="e#2753#2754#0" expanded="true" />
-            <element signature="e#2786#2787#0" expanded="true" />
-            <element signature="e#2836#2837#0" expanded="true" />
-            <element signature="e#2880#2881#0" expanded="true" />
+            <element signature="e#1985#1986#0" expanded="true" />
+            <element signature="e#2050#2051#0" expanded="true" />
+            <element signature="e#2105#2106#0" expanded="true" />
+            <element signature="e#2171#2172#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/welson/examgeneretor/bean/assignment/AssignmentListBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="50" column="40" lean-forward="false" selection-start-line="50" selection-start-column="40" selection-end-line="50" selection-end-column="40" />
+          <folding>
+            <element signature="e#1204#1205#0" expanded="true" />
+            <element signature="e#1272#1273#0" expanded="true" />
+            <element signature="e#1323#1324#0" expanded="true" />
+            <element signature="e#1360#1361#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/welson/examgeneretor/bean/assignment/AssignmentCreateBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="670">
+          <caret line="58" column="36" lean-forward="false" selection-start-line="58" selection-start-column="36" selection-end-line="58" selection-end-column="36" />
+          <folding>
+            <element signature="e#1077#1078#0" expanded="true" />
+            <element signature="e#1130#1131#0" expanded="true" />
+            <element signature="e#1437#1438#0" expanded="true" />
+            <element signature="e#1466#1467#0" expanded="true" />
+            <element signature="e#1510#1511#0" expanded="true" />
+            <element signature="e#1546#1547#0" expanded="true" />
+            <element signature="e#1587#1588#0" expanded="true" />
+            <element signature="e#1620#1621#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/welson/examgeneretor/bean/assignment/AssignmentEditBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="674">
+          <caret line="49" column="0" lean-forward="true" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+          <folding>
+            <element signature="e#714#715#0" expanded="true" />
+            <element signature="e#764#765#0" expanded="true" />
+            <element signature="e#812#813#0" expanded="true" />
+            <element signature="e#877#878#0" expanded="true" />
+            <element signature="e#1525#1526#0" expanded="true" />
+            <element signature="e#1558#1559#0" expanded="true" />
+            <element signature="e#1614#1615#0" expanded="true" />
+            <element signature="e#1658#1659#0" expanded="true" />
+            <element signature="e#1695#1696#0" expanded="true" />
+            <element signature="e#1730#1731#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/course/list.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="32" column="23" lean-forward="true" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/assignment/create.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="21" lean-forward="true" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/assignment/list.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="39" column="23" lean-forward="false" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/assignment/edit.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="21" column="83" lean-forward="false" selection-start-line="21" selection-start-column="83" selection-end-line="21" selection-end-column="83" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
